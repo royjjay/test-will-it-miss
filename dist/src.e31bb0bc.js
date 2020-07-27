@@ -31899,7 +31899,7 @@ function App() {
   }, 0);
   document.title = "".concat(hazards, " potential HAZARDS ").concat(hazards > 0 ? "😱" : "👍");
   var results = data.result.near_earth_objects[day];
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, (0, _format.default)((0, _addDays.default)(new Date(), 1), "EEEE d-MMM"), " there will be", " ", /*#__PURE__*/_react.default.createElement("strong", null, results.length), " near misses"), /*#__PURE__*/_react.default.createElement("hr", null), results.sort(function (a) {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, (0, _format.default)((0, _addDays.default)(new Date(), 1), "EEEE d-MMM"), " there will be", " ", /*#__PURE__*/_react.default.createElement("strong", null, results.length), " pigs fly"), /*#__PURE__*/_react.default.createElement("hr", null), results.sort(function (a) {
     return a.is_potentially_hazardous_asteroid ? -1 : 1;
   }).map(function (data) {
     return /*#__PURE__*/_react.default.createElement(_Orbital.default, _extends({
